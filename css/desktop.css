@@ -1,0 +1,150 @@
+html , body{
+    padding: 0;
+    margin: 0;
+
+    background: 
+    linear-gradient(217deg, #e5e9d9, #edf4d0 70.71%), 
+    linear-gradient(127deg, #e9eccb, #f5f4c8 70.71%),
+    linear-gradient(336deg, #f3f5e5, #fbffd7 70.71%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    color: #252525;
+}
+a {
+    text-decoration: none;
+
+}
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+.head {
+  width: 16vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  border-right: 0.2px solid #5c5c5c;
+  padding-top: 3vh;
+}
+.gerb {
+  width: 15vw;
+  height: auto;
+}
+.body {
+  width: 98vw;
+  
+}
+.pos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+li {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  position: relative;
+}
+li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+  color: #252525;
+}
+
+.submenu {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 15vw;
+  padding: 1vw 0 1vw;
+  margin-top: 0.5vw;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-size: 1.3vw;
+  margin: 2vw;
+  padding: 0.1vw 0.2vw;
+  transition: .2s linear;
+}
+.submenu li {
+  margin: 0.2vw;
+}
+.submenu a:hover {background: #e8e8e8;}
+
+
+.info {
+  width: 60vw;
+  margin: auto;
+  padding: 20px; 
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+p{
+  padding: 0;
+  margin: 0;
+  font-size: 1.2vw;
+}
+.p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.head_3_1 {
+  width: 60vw;
+  margin: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  padding: 2vw 0 0 4vw; 
+}
+.image-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+.img-4-8 {
+  width: 40vw;
+  outline-style: groove;
+}
+.down {
+  font-size: 1.6vw;
+}
