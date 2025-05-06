@@ -119,3 +119,132 @@ p{
 .down {
   font-size: 1.6vw;
 }
+
+.image-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+.height {
+  height: 45vw;
+}
+
+
+.img-1-1 {
+  cursor: pointer;
+  height: 6vw;
+  padding: 3px;
+  border: 0.1vw solid black;
+
+}
+.img-1-2 {
+  cursor: pointer;
+  height: 11.5vw;
+  padding: 3px; 
+  border: 0.1vw solid black;
+}
+
+.bok {
+  width: 3.7vw;
+  height: 37,5vw;
+  text-decoration: none;
+  font-size: 3.7vw;
+  display: flex;
+  align-items: center;
+}
+.bok2 {
+  height: 3.7vw;
+  width: auto;
+  font-size: 3.7vw;
+}
+.bok:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.images{
+  width:auto;
+  display: flex;
+}
+.images-1 {
+  height: 37.5vw;
+  margin: 10px;
+}
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 3.7vw;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.close:focus, .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.img-1_modal {
+  position: fixed; /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5); /* фон */
+  z-index: 1050;
+  opacity: 0; /* по умолчанию модальное окно прозрачно */
+  -webkit-transition: opacity 200ms ease-in; 
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in; /* анимация перехода */
+  pointer-events: none; /* элемент невидим для событий мыши */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-1_modal:target {
+  opacity: 1; /* делаем окно видимым */
+  pointer-events: auto; /* элемент видим для событий мыши */
+  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+.img-1_modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.img-1_modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-image: url("png.jpeg");
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: rgb(138, 138, 138);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.close1 {
+  cursor: pointer;
+}
+
+.head_3_3 {
+  width: 60vw;
+  position: center;
+  border-bottom: 0.2px solid #5c5c5c;
+  margin: auto;
+}
