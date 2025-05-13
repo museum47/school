@@ -112,6 +112,9 @@ p{
   margin: 0;
   font-size: 1.5vw;
 }
+h2 {
+  font-size: 2vw;
+}
 .p {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -157,9 +160,7 @@ p{
   margin: auto;
 
 }
-.height {
-  height: 45vw;
-}
+
 
 
 .img-1-1 {
@@ -200,23 +201,7 @@ p{
   height: 37.5vw;
   margin: 10px;
 }
-.close {
-  float: right;
-  font-family: sans-serif;
-  font-size: 3.7vw;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: 0.5;
-  text-decoration: none;
-}
-.close:focus, .close:hover {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: 0.75;
-}
+
 .img-1_modal {
   position: fixed; /* фиксированное положение */
   top: 0;
@@ -277,3 +262,42 @@ p{
 }
 
 
+.text_p {
+  width: 90vw;
+  height: 90vh;
+
+}
+.pt {
+  margin: 0 5vw 0 5vw;
+  
+
+}
+a {
+  text-decoration: none;
+  color: #252525;
+}
+.image-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-2 {
+  height: 50vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.img-4 {
+  height: 40vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.img-3 {
+  height: 25vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.img-5 {
+  height: 20vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
